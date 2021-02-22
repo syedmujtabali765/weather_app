@@ -1,0 +1,44 @@
+#root {
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #3feee6;
+}
+
+.box {
+    background-color: #fc4445;
+    width: 350px;
+    height: auto;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px #000000;
+}
+
+.inputField {
+    padding: 10px;
+    font-size: 125%;
+    border-radius: 25px;
+    border-color: #fc4445;
+    background-color: #3feee6;
+    color: white;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+@media (max-width: 350px ) {
+    .box {
+        width: 100%;
+    }
+
+    .inputField {
+        width: 100%;
+    }
+}
